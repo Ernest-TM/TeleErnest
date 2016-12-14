@@ -125,3 +125,13 @@ tmux new-session -s script "bash steady.sh -t"
 <h3><p align="center"> [سازنده](https://telegram.me/soothbot)
 <h3><p align="center"> [کانال](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
 <h3><p align="center"> [پشتیبانی](https://telegram.me/joinchat/D4x7eUADrVgbZrbFhQzQYQ)
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get install 
+libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+cd $HOME
+git clone https://github.com/Ernest-TM/TeleErnest.git
+cd TeleErnest
+chmod +x start.sh 
+./start.sh install 
+./start.sh
